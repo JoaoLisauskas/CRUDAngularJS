@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-center valores" ng-controller="itensCadastradosController">
+    <ul ng-repeat="item in listaFuncionario" class="textoLista">
+        <li>Nome: {{item.nome}}</li>
+        <li>Sobrenome: {{item.sobrenome}}</li>
+        <li>Idade: {{item.idade}}</li>
+        <li>Cargo: {{item.cargo}}</li>
+        <button ng-click="editar()" class="botaoEdita">Editar</button>
+    </ul>
+</div>

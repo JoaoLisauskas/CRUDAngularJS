@@ -1,0 +1,79 @@
+body{
+    background-color: #272727;
+}
+
+.bi{
+    margin-right: 1em;
+}
+.header{
+    height: 100%;
+    margin-top:8em ;
+}
+
+.listaDeLinks{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    
+    background-color: grey;
+    border-radius: 0 16px 16px 0;
+    padding: 2em;
+    gap: 3em;
+}
+
+.listaDeLinks li a{
+    color: black;
+    text-decoration: none;
+}
+
+.listaDeLinks a:hover {
+    color: blue; 
+}
+
+
+.formulario{
+    margin-top: 0;
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 120px;
+}
+.shadow{
+    background-color: grey;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.botao{
+    background-color: #fff;
+}
+
+main{
+background-color: rgb(171, 171, 171);
+padding: 2em;
+border-radius: 16px;
+}
+
+.textoLista{
+    color: white;
+}
+
+.valores{
+    gap: 5em;
+    margin-left: 240px;
+    flex-wrap: wrap;
+}
+
+.valores ul{
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.botaoEdita{
+    border: none;
+    margin: 10px 0;
+}
